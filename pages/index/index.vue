@@ -1,8 +1,8 @@
 <template>
 	<view class="content">
 		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
+		<view class="ui-search">
+			欢迎使用
 		</view>
 	</view>
 </template>
@@ -32,21 +32,23 @@
 	}
 
 	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin-top: 200rpx;
+		height: 400rpx;
+		width: 670rpx;
+		margin-top: 40rpx;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 50rpx;
+		margin-bottom: 20rpx;
+	}
+	.ui-search{
+		width: 670rpx;
+		height: 100rpx;
+		background-color: #fff;
+		border-radius: 60rpx;
+		border-width: 20rpx;
+		text-align: center;
+		line-height: 100rpx;
+		border-color: blanchedalmond;
+		border-style: double;
 	}
 
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
-	}
 </style>
